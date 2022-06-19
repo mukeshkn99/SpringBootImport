@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: pgService
+        uri: http://localhost:2005/
+        predicates:
+        - Path=/employee/**
+      - id: inMateService
+        uri: http://localhost:2006/
+        predicates:
+        - Path=/consumer/** 
+  
+  
+  
+  
+  
+  
+  
+  
+  

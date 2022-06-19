@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SB-JDBC-Auth"/>
+<aop-project name="sbms-service-registry"/>
+<aop-project name="stock-Spring-cloud-gateway"/>
+<aop-project name="sbms-admin-client-1"/>
+<aop-project name="SB-Security"/>
+<aop-project name="SB-MVC-Exception-Handling-1"/>
+<aop-project name="SB-MongoDB"/>
+<aop-project name="SB-Actuator"/>
+<aop-project name="07-junit5-RestApi"/>
+<aop-project name="Restclient"/>
+<aop-project name="sbms-stock-price-api"/>
+<aop-project name="Exception-Handling"/>
+<aop-project name="sbms-admin-client-2"/>
+<aop-project name="sbms-sleuth-zipkin"/>
+<aop-project name="stock-API-gateway"/>
+<aop-project name="sbms-stock-price-calc-api"/>
+<aop-project name="sbms-Admin-Server"/>
+</aop-reference-model>

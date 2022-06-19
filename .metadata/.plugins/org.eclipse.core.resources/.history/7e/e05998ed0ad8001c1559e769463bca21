@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: STOCK-PRICE-API
+        uri: lb://STOCK-PRICE-API
+        predicates:
+        - Path=/employee/**
+      - id: inMateService
+        uri: http://localhost:2006/
+        predicates:
+        - Path=/consumer/** 
+  
+  
+  
+  
+  
+  
+  
+  
+  

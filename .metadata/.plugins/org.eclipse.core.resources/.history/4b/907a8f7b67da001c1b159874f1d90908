@@ -1,0 +1,11 @@
+package com.example.demo.rest;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class welcomerestcontroller {
+
+	public String getmsg() {
+		String msg="welcome to sleuth dependency";
+	}
+}

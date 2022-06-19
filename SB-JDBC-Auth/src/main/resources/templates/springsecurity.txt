@@ -1,0 +1,16 @@
+Create table user(
+user_id integer,
+user_name varChar(30),
+user_password varChar(120),
+user_role varChar(100),
+user_enabled integer
+);
+Insert into user values(101,'mukesh','jhds7883207y427','ADMIN',1);
+Insert into user values(102,'kanesh','jhs7883207y427','EMPLOYEE',1);
+Insert into user values(103,'raju','jhds783207y427','USER',1);
+Insert into user values(104,'sachin','jhds883207y427','MANAGER',1);
+
+
+
+Select user_name,user_password,user_role,user_enabled from user where user_name=?
+Select user_name,user_password,user_role from user where user_name=?

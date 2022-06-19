@@ -1,0 +1,13 @@
+server:
+  port: 3333
+spring:
+  application:
+    name: API-GATEWAY
+zuul:
+  routes:
+    api1:
+      path: /stock/v1/**
+      service-id: STOCK-PRICE-API
+    api2:
+      path: /stock/v2/**
+      service-id: STOCK-calc-API

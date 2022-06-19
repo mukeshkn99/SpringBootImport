@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: STOCK-PRICE-API
+        uri: lb://STOCK-PRICE-API
+        predicates:
+        - Path=/price/{companyName}
+        
+      - id: STOCK-CALC-API
+        uri: lb://STOCK-CLAC-API
+        predicates:
+        - Path=/calc/{companyName}/{qty} 
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  
+  
+  
+  
+  
+  
+  
